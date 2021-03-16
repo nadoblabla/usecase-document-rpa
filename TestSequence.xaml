@@ -1,0 +1,166 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestSequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="591,1305" sap2010:WorkflowViewState.IdRef="TestSequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="37">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.IBM.Datacap</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.IBM.Datacap.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.PDF.Activities.PDF</x:String>
+      <x:String>UiPath.PDF.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.Vision.Core.OCR</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="24">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IBM.Datacap.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IBM.Datacap</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="536,1140" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="test" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Native Citrix" sap:VirtualizedContainerService.HintSize="494,1048" sap2010:WorkflowViewState.IdRef="Sequence_11">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="ui:GenericValue" Name="AfxFfdB" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'NewVendor Afx'" sap:VirtualizedContainerService.HintSize="452,956" sap2010:WorkflowViewState.IdRef="WindowScope_3" InformativeScreenshot="51d8fdd3a69c6872438400ff038556ef" Selector="&lt;wnd app='nitropdf.exe' cls='Afx:*' title='New Vendor 2015 PT Exis Inova Cipta.pdf - Nitro Pro' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="418,810" sap2010:WorkflowViewState.IdRef="Sequence_10">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="test_out" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Find relative image" sap:VirtualizedContainerService.HintSize="376,260" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:WaitImageAppear FoundElement="{x:Null}" DisplayName="Find Image 'Afx:00007FF79D290000:b:...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitImageAppear_2">
+                  <ui:WaitImageAppear.Image>
+                    <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAANMAAAAgCAYAAACIAU1uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQMSURBVHhe7dp/TNR1HMfx/m7VH60/xLlFxSGe0F23kwMlfjhTZ7vYHGQokFkLIYQ/DN1K548lrWyzzXJg68/+CFFYbIgMZoTkgmX+mqu20sBlZ94d+P1+746Du1ef7w+5O9O1tc8/3+312Nh4f77f46977vP9wSMgIikYE5EkjIlIEsZEJAljIpKEMRFJwpiIJGFMRJIwJiJJGBORJIyJSBLGRCQJYyKShDERScKYiCRhTESSZMQ0pyhQFA1z1myKiLVZ63ciephUTLGfccyfjUWuLTh+JWYtAjOju1Gxrh0/atYCET1QKqbIRbQXLcaSpc/Avb0Lk/Pm8vTZ7Xh+xfsYV815LhaBpuo7mAJVi6XtYppYSxjHVf24GkE8aZ5vzlHErTMNyTiimiqOqVC0CGYT1jqRTWXE9EFxPqrbd2Htc6uxf2TaWDZjes+MKfo7Th6sw0teJ3Icy+Dz78LXv5iXgOHhZlRs3ItP925GmXs53CVb8dnw9+g+UINSMbtK30THuALRl5DAX2Md2OEvhrsgH57yWhzqv54ZG5HNZMZU5ETd6avobfEib1MnrolO0mNKBifw1fETGL8RxExgAseqcrHi3XOYER8PDdYj+zEnNh0+ixvBX9HV5MRTWW7U6HPoN5xqdcH5ehduiR0oGT6DnSvdqOuYQEAJ4VpXC3zeBvQEuD2Rff0rptozQcSudqB6qRet39xCKH1nEvuKJi7LVE2DpgXxw8ESOKp6cVscCQ3WYZl3N0bCZhC3u19Fjic1B7qrkFv0ES5GRKDftoodqQGnJsWlov73bvbhHY8XbaN6lkT29MCYxNcdI/tWw7H+Ywz1N8J1L6b5KYx0tqHevwYV5WUoznsciyt7EBCH9Jicvn24YD2oCA3WZszBgc3IK9xvzIGeKmQ9mgVPoQ8+n/4jdkJHOfaMMSayr4fEJLqZPIFGtwvVjZUosGKaGd0JX0ENvvjpb7E7hTDeXobcjJjMWHT3z8GBLQsxhYcake9uRt+UtTOpCu5OTyNqnkpkSxkxHdLvmayYIL7al45uxLOLnsCTL+wxYrrT/7aIoAm9f6hQ/hzD0deexpKFmOpFPAfSYsqcgwO1IiZzTgROosHrwbbO85gKi5DuXMeF7yZwM/VEnsh2UjFFr+DIhhI0D4etBf1BwSg+3JCD7LWf4LK410nePY/Pt5XDV/gi1lS+hbaWV1D6Rp9xz6Q/zVu1/jAuifN098+hoSasXHdvjmNy+AgaXi7EcocDee5V8O/4EpeN+zIie0rFJMQVBdZGsmDWeKeUemgdj2pQVP0BRASxef3dknXAeM+U/nD7P+bErPGeSX9fpYhLPS3K/7Ige8uIiYj+P8ZEJAljIpKEMRFJwpiIpAD+AXhOArKb/0k6AAAAAElFTkSuQmCC" />
+                  </ui:WaitImageAppear.Image>
+                  <ui:WaitImageAppear.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e6a00458-8e80-4434-9cd9-3c3436ece481" Selector="&lt;wnd aaname='Workspace' cls='MDIClient' /&gt;&lt;wnd cls='Afx:*' title='New Vendor 2015 PT Exis Inova Cipta' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:WaitImageAppear.Target>
+                </ui:WaitImageAppear>
+                <ui:SetClippingRegion Element="{x:Null}" Region="{x:Null}" Direction="TRANSLATE" DisplayName="Translate clipping region" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="SetClippingRegion_1">
+                  <ui:SetClippingRegion.Size>
+                    <ui:Region Rectangle="-230, -3, 643, 0" />
+                  </ui:SetClippingRegion.Size>
+                </ui:SetClippingRegion>
+              </Sequence>
+              <ui:GetOCRText WordsInfo="{x:Null}" DisplayName="Get OCR Text 'Afx:00007FF79D290000:b:...'" sap:VirtualizedContainerService.HintSize="376,225" sap2010:WorkflowViewState.IdRef="GetOCRText_2">
+                <ui:GetOCRText.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p:UiPathDocumentOCR Endpoint="{x:Null}" Output="{x:Null}" ApiKey="Efy3iOMpbcp6ZVbC0BEbfSLjMdTH6f3CikVielpjbn2uJM4yfh70RvbqDTvQuvF6tBLSfEQmxXrk8kLDSdFwWg==" ComputeSkewAngle="False" DisplayName="UiPath Document OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="300,79" sap2010:WorkflowViewState.IdRef="UiPathDocumentOCR_3" Image="[Image]" Language="auto" Profile="None" Scale="1" Text="[test_out]" />
+                  </ActivityFunc>
+                </ui:GetOCRText.OCREngine>
+                <ui:GetOCRText.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="49e01064-5d51-4e62-a659-b5d7e3b48c18" InformativeScreenshot="a749eebb92c6a7ecd76def3a356f4793">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetOCRText.Target>
+                <ui:GetOCRText.Text>
+                  <OutArgument x:TypeArguments="ui:GenericValue">[AfxFfdB]</OutArgument>
+                </ui:GetOCRText.Text>
+              </ui:GetOCRText>
+              <ui:SetClippingRegion Element="{x:Null}" Region="{x:Null}" Direction="RECTANGLE" DisplayName="Reset clipping region" sap:VirtualizedContainerService.HintSize="376,22" sap2010:WorkflowViewState.IdRef="SetClippingRegion_2">
+                <ui:SetClippingRegion.Size>
+                  <ui:Region Rectangle="0, 0, 0, 0" />
+                </ui:SetClippingRegion.Size>
+              </ui:SetClippingRegion>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="376,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[test_out]" />
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+      </ui:WindowScope>
+    </Sequence>
+  </Sequence>
+</Activity>
