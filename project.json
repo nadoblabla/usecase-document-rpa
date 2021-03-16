@@ -1,6 +1,6 @@
 {
-  "name": "Test_FileNet",
-  "description": "Bismillah berhasil. Get files from filenet and process it",
+  "name": "Usecase_OpenText-RPA-SAP",
+  "description": "Bismillah berhasil. Get files from OpenText, process it through OCR process and SAP",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.5]",
@@ -52,6 +52,5 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
-  "targetFramework": "Legacy"
+  "publishData": {}
 }
