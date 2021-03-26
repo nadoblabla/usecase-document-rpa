@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="782,801" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ufa="clr-namespace:UiPathTeam.FileWatcher.Activities;assembly=UiPathTeam.FileWatcher.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="703,801" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ufa="clr-namespace:UiPathTeam.FileWatcher.Activities;assembly=UiPathTeam.FileWatcher.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="52">
       <x:String>System.Activities</x:String>
@@ -164,7 +164,7 @@
               <av:Size x:Key="ShapeSize">200,66</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="OCR via Datacap" sap:VirtualizedContainerService.HintSize="518,2536" sap2010:WorkflowViewState.IdRef="Sequence_99">
+          <Sequence DisplayName="OCR via Datacap" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_99">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -178,11 +178,11 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:MoveFile ContinueOnError="{x:Null}" Destination="\\172.30.155.214\Input_MultiFormat2" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="384,157" sap2010:WorkflowViewState.IdRef="MoveFile_3" Overwrite="True" Path="[file_name]" />
-              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="384,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
+              <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="384,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
               <ufa:FileWatcher ContinueOnError="{x:Null}" EventType="{x:Null}" FileName="{x:Null}" OldTriggerFile="{x:Null}" StabilizationDelay="{x:Null}" StabilizationRetries="{x:Null}" CreateEvent="False" DeleteEvent="False" ExistEvent="True" FolderPath="\\172.30.155.214\Input_MultiFormat2" sap:VirtualizedContainerService.HintSize="384,132" sap2010:WorkflowViewState.IdRef="FileWatcher_4" IncludeSubdirectories="False" RenameEvent="False" Timeout="2000" TriggerFile="[file_name2]" UpdateEvent="False" />
               <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="384,79" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[file_name2]" />
             </Sequence>
-            <Sequence DisplayName="Get Result" sap:VirtualizedContainerService.HintSize="476,1802" sap2010:WorkflowViewState.IdRef="Sequence_101">
+            <Sequence DisplayName="Get Result" sap:VirtualizedContainerService.HintSize="476,1864" sap2010:WorkflowViewState.IdRef="Sequence_101">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="nama_perusahaan" />
                 <Variable x:TypeArguments="x:String" Name="alamat" />
@@ -197,7 +197,8 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ufa:FileWatcher ContinueOnError="{x:Null}" EventType="{x:Null}" FileName="{x:Null}" OldTriggerFile="{x:Null}" CreateEvent="True" DeleteEvent="False" ExistEvent="True" FolderPath="\\172.30.155.214\export2" sap:VirtualizedContainerService.HintSize="434,132" sap2010:WorkflowViewState.IdRef="FileWatcher_5" IncludeSubdirectories="False" RenameEvent="False" StabilizationDelay="3000" StabilizationRetries="3" Timeout="5000" TriggerFile="[csv_filename]" UpdateEvent="False" />
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <ufa:FileWatcher ContinueOnError="{x:Null}" EventType="{x:Null}" FileName="{x:Null}" OldTriggerFile="{x:Null}" CreateEvent="False" DeleteEvent="False" ExistEvent="True" FolderPath="\\172.30.155.214\export2" sap:VirtualizedContainerService.HintSize="434,132" sap2010:WorkflowViewState.IdRef="FileWatcher_5" IncludeSubdirectories="False" RenameEvent="False" StabilizationDelay="5000" StabilizationRetries="5" Timeout="10000" TriggerFile="[csv_filename]" UpdateEvent="False" />
               <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[datatable1]" Delimitator="Semicolon" DisplayName="Read CSV" FilePath="[csv_filename]" sap:VirtualizedContainerService.HintSize="434,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IncludeColumnNames="False" />
               <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_2">
                 <Assign.To>
