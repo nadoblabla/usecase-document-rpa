@@ -3,13 +3,15 @@
   "description": "Bismillah berhasil. Get files from OpenText, process it through OCR process and SAP",
   "main": "Main.xaml",
   "dependencies": {
+    "System.IO.FileSystem.Watcher": "[4.3.0]",
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.IBM.Datacap.Activities": "[0.1.6954.24064]",
     "UiPath.Mail.Activities": "[1.9.5]",
     "UiPath.PDF.Activities": "[3.3.0]",
     "UiPath.System.Activities": "[20.10.3]",
     "UiPath.UIAutomation.Activities": "[21.2.0-preview]",
-    "UiPath.Vision": "[3.0.0-preview]"
+    "UiPath.Vision": "[3.0.0-preview]",
+    "UiPathTeam.FileWatcher.Activities": "[1.4.0]"
   },
   "webServices": [],
   "entitiesStores": [],
