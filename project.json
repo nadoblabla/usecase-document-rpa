@@ -3,6 +3,7 @@
   "description": "Bismillah berhasil. Get files from OpenText, process it through OCR process and SAP",
   "main": "Main.xaml",
   "dependencies": {
+    "Roboyo.Tools.Activities.CopyMoveDirectory": "[1.0.0]",
     "System.IO.FileSystem.Watcher": "[4.3.0]",
     "UiPath.Excel.Activities": "[2.9.5]",
     "UiPath.IBM.Datacap.Activities": "[0.1.6954.24064]",
